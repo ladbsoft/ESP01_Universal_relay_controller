@@ -1,7 +1,7 @@
 # ESP01_Universal_relay_controller
 ### A project to control a standard ESP-01 relay board over MQTT
 
-![Board](https://raw.githubusercontent.com/ladbsoft/ESP01_Universal_relay_controller/master/Photo.jpg "Board")
+![Board](https://github.com/ladbsoft/ESP01_Universal_relay_controller/blob/main/photo.jpg "Board")
 
 ## About this
 A simple controller for the well-known relay controller board that you can find in most eBay or Aliexpress electronic shops. It uses MQTT to receive commands and broadcast status. It has a watchdog that guarantees the board will be ready for commands, and it remembers the last status, in case of power losses.
